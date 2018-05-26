@@ -7,7 +7,7 @@ def my_each(collection) # put argument(s) here
       i = i + 1
     end
  
-    collection
+   puts collection
   # else
   #   puts "Hey! No block was given!"
   # end
