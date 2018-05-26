@@ -1,4 +1,4 @@
-def my_each(collection) # put argument(s) here
+def my_each(collection) { puts "Hey! No block was given!"}# put argument(s) here 
   if block_given?
     i = 0
     while i < collection.length
@@ -8,7 +8,7 @@ def my_each(collection) # put argument(s) here
     end
    collection
   else
-   "Hey! No block was given!"
+    puts "Hey! No block was given!"
   end
 end  # code here
 # end
